@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Lottie from "react-lottie";
-import animationData from "../public/animation.json"; // Path to your Lottie animation JSON file
-import animationData2 from "../public/animation2.json"; // Path to your Lottie animation JSON file
+import animationData from "../public/animation.json"; 
+import animationData2 from "../public/animation2.json";
 
 const LandingPage = () => {
     const log = () => {
-        const path = "NextProduction.dev/hering";
+        const path = "workwithus@NextProduction.dev";
         console.log(
             `\n%c ${path}`,
             "color:#0dd8d8; background:#0b1021; font-size:1rem; padding:0.15rem 0.25rem; margin: 0.5rem auto; font-family: Rockwell; border: 2px solid #0dd8d8; border-radius: 4px;font-weight: bold;"
@@ -103,19 +103,6 @@ const LandingPage = () => {
                 </div>
             </section>
 
-            {/* Geeky joke Section */}
-            <section id="geeky-joke" className="geeky-joke py-16">
-                <div className="max-w-3xl mx-auto text-center">
-                    <h2 className="text-3xl font-bold mb-4">
-                        Geeky Joke of Day
-                    </h2>
-                    <p className="text-lg mb-6">
-                        Why do programmers prefer dark mode? Because light
-                        attracts bugs! 😄
-                    </p>
-                </div>
-            </section>
-
             {/* Contact Section */}
             <section id="contact" className="contact py-16">
                 <div className="max-w-3xl mx-auto text-center">
@@ -134,7 +121,7 @@ const LandingPage = () => {
 
             {/* Footer Section */}
             <footer className="bg-gray-800 py-4 text-center">
-                <p>&copy; 2024 NextProduction. All rights reserved.</p>
+                <p>&copy; 2024 NextProduction.dev All rights reserved.</p>
             </footer>
         </div>
     );
