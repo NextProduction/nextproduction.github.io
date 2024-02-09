@@ -127,7 +127,7 @@ const LandingPage = () => {
                         href="mailto:contact@nextproduction.dev"
                         className="text-lg underline hover:text-blue-300"
                     >
-                        NextProductionDev@gmail.com
+                        contact@nextproduction.dev
                     </a>
                 </div>
             </section>
