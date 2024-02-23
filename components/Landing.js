@@ -27,7 +27,7 @@ const LandingPage = () => {
             >
                 <div className="text-center">
                     <h1 className="text-4xl md:text-6xl font-bold my-4">
-                        Welcome to NextProduction
+                        Welcome to Next Production ⚡
                         {log()}
                     </h1>
                     <p className="mt-4 text-lg">
