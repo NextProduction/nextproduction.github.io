@@ -11,8 +11,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <script defer src="https://platform.analytick.ir/script.js" data-website-id="4ecb9774-bae4-4e7f-98de-f64d7b66a752"></script>
       <body className={`${inter.className} overflow-y-scroll overflow-x-hidden`}>{children}</body>
-      <script defer src="https://platform.analytick.ir/script.js" data-website-id="4dd27363-d5ac-454b-b1b2-dacde74db9ac"></script>
     </html>
   );
 }
